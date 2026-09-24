@@ -24,7 +24,7 @@
       "codeSigningCertificate": "./certs/certificate.pem",
       "requestHeaders": {
         "expo-channel-name": "production",
-        "expo-app-id": "ed7d7a0c-2d47-4ddf-9494-105161cfbe05"
+        "expo-app-id": "2ab82ee4-d6bb-47ce-b0c2-4a0914dc12fc"
       }
     },
     "runtimeVersion": "1.0.0",
