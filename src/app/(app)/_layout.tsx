@@ -1,12 +1,6 @@
-import { useAuth } from "@clerk/clerk-expo";
-import { Redirect, Stack } from "expo-router";
+import { Stack } from "expo-router";
 
+// OTA test app: no auth gate
 export default function AppLayout() {
-  const { isLoaded, isSignedIn } = useAuth();
-
-  if (!isLoaded) return null;
-
-  if (!isSignedIn) return <Redirect href="/sign-in" />;
-
   return <Stack screenOptions={{ headerShown: false }} />;
 }

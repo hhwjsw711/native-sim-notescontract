@@ -47,9 +47,7 @@
         {
           "root": "./src/app"
         }
-      ],
-      "expo-font",
-      "expo-secure-store"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
