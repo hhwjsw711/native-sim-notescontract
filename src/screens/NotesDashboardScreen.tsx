@@ -12,8 +12,8 @@ import {
 import { Feather, AntDesign } from "@expo/vector-icons";
 import { RFValue } from "react-native-responsive-fontsize";
 import { useUser } from "@clerk/clerk-expo";
-import { api } from "@packages/backend/convex/_generated/api";
-import { type Doc } from "@packages/backend/convex/_generated/dataModel";
+import { api } from "./convex/_generated/api";
+import { type Doc } from "./convex/_generated/dataModel";
 import { useQuery } from "convex/react";
 import { type Href, useRouter } from "expo-router";
 

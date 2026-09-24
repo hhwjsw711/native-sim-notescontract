@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { api } from "@packages/backend/convex/_generated/api";
+import { api } from "./convex/_generated/api";
 import { useQuery } from "convex/react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import {
