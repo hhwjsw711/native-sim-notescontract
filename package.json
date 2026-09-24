@@ -13,6 +13,7 @@
   "dependencies": {
     "@clerk/clerk-expo": "^2.19.31",
     "@expo/vector-icons": "^15.1.1",
+    "convex": "^1.46.0",
     "expo": "~55.0.16",
     "expo-asset": "~55.0.16",
     "expo-auth-session": "~55.0.15",
